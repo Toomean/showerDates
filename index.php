@@ -170,25 +170,57 @@
             <div class="screen screen--for_m_share for_share for_man">
                 <div class="product"></div>
                 <div class="screen__bg">
-                </div>
-                <div class="share-post">
-                    <div class="share-post__text">Поделись постом:</div>
-                    <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?bs"></a>
-                    <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?bs"></a>
-                    <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?bs"></a>
-                    <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?bs"></a>
+                    <div class="top">
+                        <div class="logo"></div>
+                    </div>
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered is-hashtagged">
+                                    <div class="unrotate">
+                                        Поделюсь горячей водой<br>
+                                        с горячей девушкой
+                                        <span class="hashtag">#СТЕПЛОМВДУШЕ</span>
+                                    </div>
+                                </h2>
+                                <div class="share-post">
+                                    <div class="share-post__text">Поделись постом:</div>
+                                    <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?bs"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?bs"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?bs"></a>
+                                    <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?bs"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="screen screen--for_m_water_share for_share for_man">
                 <div class="product"></div>
                 <div class="screen__bg">
-                    <div class="share-post">
-                        <div class="share-post__text">Поделись постом:</div>
-                        <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?bg"></a>
-                        <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?bg"></a>
-                        <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?bg"></a>
-                        <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?bg"></a>
+                    <div class="top">
+                        <div class="logo"></div>
+                    </div>
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered is-hashtagged">
+                                    <div class="unrotate">
+                                        Ищу девушку<br>
+                                        с теплом в душе
+                                        <span class="hashtag">#СТЕПЛОМВДУШЕ</span>
+                                    </div>
+                                </h2>
+                                <div class="share-post">
+                                    <div class="share-post__text">Поделись постом:</div>
+                                    <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?bg"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?bg"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?bg"></a>
+                                    <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?bg"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

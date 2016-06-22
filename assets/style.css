@@ -367,6 +367,23 @@ label {
     height: 100%;
 }
 
+.b_valign .share-post {
+    position: relative;
+    top: auto;
+    bottom: auto;
+
+    margin: 5em 0 0;
+}
+
+.b_valign .share-post__text {
+    margin: 0;
+}
+
+.b_valign .share-post__link {
+    width: 4vw;
+    height: 4vw;
+}
+
 .b_valign-cont {
     position: relative;
     display: table-cell;
@@ -412,6 +429,23 @@ label {
     border: 2px solid white;
 }
 
+.heading.is-bordered.is-hashtagged {
+    padding-bottom: 1.2em;
+    line-height: 1.2em;
+}
+
+.unrotate {
+    transform: skew(7.5deg) rotate(7.5deg);
+}
+
+.heading.is-bordered .hashtag {
+    display: block;
+    margin-top: 0.8em;
+
+    font-size: .8em;
+    font-weight: normal;
+}
+
 .heading.is-bordered + .button {
     transform: skew(-7.5deg) rotate(-7.5deg) translateY(-50%);
 
@@ -445,6 +479,12 @@ label {
 
     background: #2b182e;
     background: rgba(43, 24, 46, 0.9);
+}
+
+@media screen and (max-height: 660px) {
+    .content {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-height: 560px) {
