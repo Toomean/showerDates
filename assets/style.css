@@ -129,8 +129,8 @@ label {
  */
 
 .select-gender {
-    left: 2.5vw;
-    top: 2.5vw;
+    left: 12px;
+    top: 40px;
     z-index: 100;
     width: 10vw;
     height: 5vw;
@@ -345,6 +345,100 @@ label {
     z-index: 1;
     transition: right 300ms;
 }
+
+.top {
+    padding-top: 43px;
+    height: 103px
+}
+
+.content {
+    position: absolute;
+    top: 103px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    font-size: 16px;
+}
+
+.b_valign {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.b_valign-cont {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 66px;
+    height: 32px;
+    margin: 7px auto 12px;
+
+    background: url(logo.png);
+    background-size: 100% 100%;
+}
+
+.logo-sign {
+    font-size: 14px;
+    line-height: 16px;
+    color: #ff3f3c;
+}
+
+.heading {
+    transform: skew(-7.5deg) rotate(-7.5deg);
+    color: white;
+    padding: 2em 0 1em;
+
+    font-size: 3.125em;
+    line-height: 0.9em;
+    letter-spacing: -0.12em
+}
+
+.button-set {
+    padding: 3.125em 0;
+}
+
+.button-set .button {
+    margin: 0 10%;
+}
+
+.button {
+    transition: background .2s ease;
+    transform: skew(-7.5deg) rotate(-7.5deg);
+
+    position: relative;
+    display: inline-block;
+    padding: 0.64em 1.6em;
+
+    color: white;
+    font-size: 1.5625em;
+    line-height: 1em;
+    text-shadow: 1px 1px #000;
+
+    background: #2b182e;
+    background: rgba(43, 24, 46, 0.9);
+}
+
+@media screen and (max-height: 560px) {
+    .content {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .content {
+        font-size: 10px;
+    }
+}
+
+.button:hover {
+    background: #be91a6;
+    background: rgba(190, 145, 166, 0.9);
+}
+
 .screen--for_man .screen__bg {
     background-image: url(man_start.jpg);
 }

@@ -91,8 +91,21 @@
                 <div class="product"></div>
                 <div class="screen__bg">
                     <label for="for_girl" class="select-gender select-gender--man"></label>
-                    <label for="for_m_water" class="select-option select-option--water"></label>
-                    <label for="for_m_partner" class="select-option select-option--partner"></label>
+                    <div class="top">
+                        <div class="logo"></div>
+                        <div class="logo-sign">Поиск горячих людей с горячей водой</div>
+                    </div>
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h1 class="heading">О чем ты мечтаешь<br>в душе?</h1>
+                                <div class="button-set">
+                                    <label for="for_m_water" class="button">О горячей<br>воде</label>
+                                    <label for="for_m_partner" class="button">О горячей<br>девушке</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
