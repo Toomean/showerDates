@@ -226,6 +226,7 @@ label {
     position: absolute;
     width: 9vw;
     height: 8vw;
+    z-index: 1;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -347,7 +348,7 @@ label {
 }
 
 .top {
-    padding-top: 43px;
+    padding-top: 2.68em;
     height: 103px
 }
 
@@ -400,8 +401,10 @@ label {
 }
 
 .logo-sign {
-    font-size: 14px;
-    line-height: 16px;
+    padding: 0 5%;
+
+    font-size: 0.875em;
+    line-height: 1.14em;
     color: #ff3f3c;
 }
 
@@ -464,6 +467,14 @@ label {
     margin: 0 10%;
 }
 
+.button-set .button:first-child {
+    margin-left: 0;
+}
+
+.button-set .button:last-child {
+    margin-right: 0;
+}
+
 .button {
     transition: background .2s ease;
     transform: skew(-7.5deg) rotate(-7.5deg);
@@ -500,6 +511,61 @@ label {
 @media screen and (max-height: 400px) {
     .content {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .button-set .button {
+        margin: 0 2%;
+    }
+
+    .heading {
+        max-width: 90%;
+        padding: 1.5em 1.5em .5em;
+
+        font-size: 2.5em
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .top {
+        font-size: 14px;
+    }
+    .logo-sign.is-secondary {
+        font-size: 10px;
+    }
+    .content {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 520px) and (max-height: 400px) {
+    .top {
+        font-size: 12px;
+    }
+    .content {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 520px) and (max-height: 360px) {
+    .top {
+        font-size: 12px;
+    }
+    .content {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content {
+        font-size: 8.5px;
     }
 }
 
@@ -548,7 +614,7 @@ label {
  *
  ********************************************/
 
-@media screen and (max-width: 1440px) {
+/*@media screen and (max-width: 1440px) {
     .screen__random {
         width: 761px;
         height: 75px;
@@ -568,8 +634,8 @@ label {
         top: 4vw;
         z-index: 1;
     }
-}
-@media screen and (max-width: 1280px) {
+}*/
+/*@media screen and (max-width: 1280px) {
     .screen__random {
         width: 500px;
         height: 75px;
@@ -584,7 +650,7 @@ label {
         height: 179px;
         background-size: 100% 100%;
     }
-}
+}*/
 /*********************************************
  * iPad mini, iPad 1, iPad 2,    iPad 3, iPad 4
  *
@@ -592,7 +658,7 @@ label {
  */
 
 /* Portrait ----------- */
-@media screen and (max-width: 1024px) and (orientation: portrait) {
+/*@media screen and (max-width: 1024px) and (orientation: portrait) {
     .screen__random {
     }
     .select-gender--man {
@@ -680,9 +746,9 @@ label {
     .screen--for_g_share .screen__bg {
         background-image: url(girl_partner_share_ipad.jpg);
     }
-}
+}*/
 /* Landscape ----------- */
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/*@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .select-circle {
         width: 73px;
         height: 73px;
@@ -718,7 +784,7 @@ label {
     .select-circle {
         width: 73px;
         height: 73px;
-    }
+    }*/
     /*
       .select-circle--top {
         left: 9.5%;
@@ -731,8 +797,8 @@ label {
         bottom: 6.5%;
         background-image: url(circle_bottom_ipad.png);
       }*/
-}
-@media screen and (max-width: 800px) and (orientation: landscape) {
+/*}*/
+/*@media screen and (max-width: 800px) and (orientation: landscape) {
     .select-circle {
         width: 73px;
         height: 73px;
@@ -751,7 +817,7 @@ label {
         width: 186px;
         height: 98px;
     }
-}
+}*/
 /*********************************************
  * iPhone 6+
  *
@@ -760,7 +826,7 @@ label {
 
 /* Portrait ----------- */
 
-@media screen and (min-width: 414px) and (max-width: 450px) and (orientation: portrait) {
+/*@media screen and (min-width: 414px) and (max-width: 450px) and (orientation: portrait) {
     .select-gender {
         left: 2.4%;
         top: 2.3%;
@@ -825,8 +891,8 @@ label {
         margin-right: 0;
         background-position: -215px -13px;
     }
-}
-@media screen and (min-width: 414px) and (max-width: 450px) and (orientation: landscape) {
+}*/
+/*@media screen and (min-width: 414px) and (max-width: 450px) and (orientation: landscape) {
     .select-gender {
         left: 4.4%;
     }
@@ -842,7 +908,7 @@ label {
     .screen--for_g_share .screen__bg {
         background-image: url(girl_partner_share_ipad.jpg);
     }
-}
+}*/
 /*********************************************
  * iPhone 6
  *
@@ -851,7 +917,7 @@ label {
 
 /* Portrait ----------- */
 
-@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
     .select-gender {
         left: 2.4%;
         top: 1.3%;
@@ -932,8 +998,8 @@ label {
         margin-right: 0;
         background-position: -215px -13px;
     }
-}
-@media screen and (max-width: 400px) and (orientation: landscape) {
+}*/
+/*@media screen and (max-width: 400px) and (orientation: landscape) {
     .screen--for_m_water_share .for_man .screen__bg {
         background-image: url(girl_water_share_ipad.jpg);
     }
@@ -946,7 +1012,7 @@ label {
     .screen--for_g_share .for_girl .screen__bg {
         background-image: url(girl_partner_share_ipad.jpg);
     }
-}
+}*/
 
 
 

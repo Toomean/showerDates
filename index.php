@@ -116,14 +116,14 @@
                     <!--<label  class="select-back"></label>-->
                     <div class="top">
                         <div class="logo"></div>
-                        <div class="logo-sign is-secondary">
+                        <!-- <div class="logo-sign is-secondary">
                             <script>
                                 count = randomInteger(2, 9);
                                 word = declOfNum(count, ['девушка', 'девушки', 'девушек']);
                                 document.write(count + ' ' + word);
                             </script>
                             рядом с тобой<br> мечтают о&nbsp;серьезном теплом душе
-                        </div>
+                        </div> -->
                     </div>
                     <div class="content">
                         <div class="b_valign">
@@ -143,7 +143,7 @@
                     <!--<label  class="select-back"></label>-->
                     <div class="top">
                         <div class="logo"></div>
-                        <div class="logo-sign is-secondary">
+                        <!-- <div class="logo-sign is-secondary">
                             У
                             <script>
                                 count = randomInteger(2, 9);
@@ -151,7 +151,7 @@
                                 document.write(count + ending);
                             </script>
                             девушек в этом вагоне есть<br> горячая вода, но нет планов на вечер
-                        </div>
+                        </div> -->
                     </div>
                     <div class="content">
                         <div class="b_valign">
