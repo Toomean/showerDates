@@ -368,6 +368,7 @@ label {
 }
 
 .b_valign-cont {
+    position: relative;
     display: table-cell;
     vertical-align: middle;
 }
@@ -387,14 +388,38 @@ label {
     color: #ff3f3c;
 }
 
+.logo-sign.is-secondary {
+    color: white;
+    font-size: 1em;
+    line-height: 1.333em;
+    letter-spacing: 0.06em
+}
+
 .heading {
     transform: skew(-7.5deg) rotate(-7.5deg);
     color: white;
-    padding: 2em 0 1em;
+
+    display: inline-block;
+    padding: 2em 2em 1em;
 
     font-size: 3.125em;
     line-height: 0.9em;
     letter-spacing: -0.12em
+}
+
+.heading.is-bordered {
+    padding-bottom: 2em;
+    border: 2px solid white;
+}
+
+.heading.is-bordered + .button {
+    transform: skew(-7.5deg) rotate(-7.5deg) translateY(-50%);
+
+    display: table;
+    margin: 0 auto;
+
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
 }
 
 .button-set {
@@ -426,6 +451,10 @@ label {
     .content {
         font-size: 12px;
     }
+    .heading.is-bordered {
+        padding-top: 1.25em;
+        padding-bottom: 1.25em;
+    }
 }
 
 @media screen and (max-height: 400px) {
@@ -441,9 +470,13 @@ label {
 
 .screen--for_man .screen__bg {
     background-image: url(man_start.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_m_water .screen__bg {
     background-image: url(man_water.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_m_water_share .screen__bg {
     background-image: url(man_water_share.jpg);
@@ -488,10 +521,12 @@ label {
     .select-circle--bottom {
         right: 7.5%;
         bottom: 3%;
+        z-index: 1;
     }
     .select-circle--top {
         left: 6vw;
         top: 4vw;
+        z-index: 1;
     }
 }
 @media screen and (max-width: 1280px) {

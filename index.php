@@ -98,7 +98,7 @@
                     <div class="content">
                         <div class="b_valign">
                             <div class="b_valign-cont">
-                                <h1 class="heading">О чем ты мечтаешь<br>в душе?</h1>
+                                <h2 class="heading">О чем ты мечтаешь<br>в душе?</h2>
                                 <div class="button-set">
                                     <label for="for_m_water" class="button">О горячей<br>воде</label>
                                     <label for="for_m_partner" class="button">О горячей<br>девушке</label>
@@ -114,19 +114,24 @@
                 <div class="screen__bg">
                     <label for="for_man" class="select-circle select-circle--bottom"></label>
                     <!--<label  class="select-back"></label>-->
-                    <div class="share-group">
-                        <div class="share-group__border"></div>
-                        <div class="share-group__text"></div>
-                        <label for="for_m_water_share" class="select-share"></label>
+                    <div class="top">
+                        <div class="logo"></div>
+                        <div class="logo-sign is-secondary">
+                            <script>
+                                count = randomInteger(2, 9);
+                                word = declOfNum(count, ['девушка', 'девушки', 'девушек']);
+                                document.write(count + ' ' + word);
+                            </script>
+                            рядом с тобой<br> мечтают о&nbsp;серьезном теплом душе
+                        </div>
                     </div>
-
-                    <div class="screen__random">
-                        <script>
-                            count = randomInteger(2, 9);
-                            word = declOfNum(count, ['девушка', 'девушки', 'девушек']);
-                            document.write(count + ' ' + word);
-                        </script>
-                        рядом с тобой<br> мечтают о&nbsp;серьезном теплом душе
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered">Ищу девушку с теплом<br>в душе</h2>
+                                <label for="for_m_water_share" class="button">Поделиться</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,19 +141,28 @@
                 <div class="screen__bg">
                     <label for="for_man" class="select-circle select-circle--top"></label>
                     <!--<label  class="select-back"></label>-->
-                    <div class="share-group">
-                        <div class="share-group__border"></div>
-                        <div class="share-group__text"></div>
-                        <label for="for_m_share" class="select-share"></label>
+                    <div class="top">
+                        <div class="logo"></div>
+                        <div class="logo-sign is-secondary">
+                            У
+                            <script>
+                                count = randomInteger(2, 9);
+                                ending = declOfNum(count, ['', '', '']);
+                                document.write(count + ending);
+                            </script>
+                            девушек в этом вагоне есть<br> горячая вода, но нет планов на вечер
+                        </div>
                     </div>
-                    <div class="screen__random">
-                        У
-                        <script>
-                            count = randomInteger(2, 9);
-                            ending = declOfNum(count, ['', '', '']);
-                            document.write(count + ending);
-                        </script>
-                        девушек в этом вагоне есть<br> горячая вода, но нет планов на вечер
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered">
+                                    Поделюсь горячей водой<br>
+                                    с горячей девушкой
+                                </h2>
+                                <label for="for_m_share" class="button">Поделиться</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
