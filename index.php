@@ -98,7 +98,7 @@
                     <div class="content">
                         <div class="b_valign">
                             <div class="b_valign-cont">
-                                <h2 class="heading">О чем ты мечтаешь<br>в душе?</h2>
+                                <h2 class="heading">О чем ты мечтаешь <br>в душе?</h2>
                                 <div class="button-set">
                                     <label for="for_m_water" class="button">О горячей<br>воде</label>
                                     <label for="for_m_partner" class="button">О горячей<br>девушке</label>
@@ -128,7 +128,7 @@
                     <div class="content">
                         <div class="b_valign">
                             <div class="b_valign-cont">
-                                <h2 class="heading is-bordered">Ищу девушку с теплом<br>в душе</h2>
+                                <h2 class="heading is-bordered">Ищу девушку с теплом <br>в душе</h2>
                                 <label for="for_m_water_share" class="button">Поделиться</label>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                         <div class="b_valign">
                             <div class="b_valign-cont">
                                 <h2 class="heading is-bordered">
-                                    Поделюсь горячей водой<br>
+                                    Поделюсь горячей водой <br>
                                     с горячей девушкой
                                 </h2>
                                 <label for="for_m_share" class="button">Поделиться</label>
@@ -178,7 +178,7 @@
                             <div class="b_valign-cont">
                                 <h2 class="heading is-bordered is-hashtagged">
                                     <div class="unrotate">
-                                        Поделюсь горячей водой<br>
+                                        Поделюсь горячей водой <br>
                                         с горячей девушкой
                                         <span class="hashtag">#СТЕПЛОМВДУШЕ</span>
                                     </div>
@@ -207,7 +207,7 @@
                             <div class="b_valign-cont">
                                 <h2 class="heading is-bordered is-hashtagged">
                                     <div class="unrotate">
-                                        Ищу девушку<br>
+                                        Ищу девушку <br>
                                         с теплом в душе
                                         <span class="hashtag">#СТЕПЛОМВДУШЕ</span>
                                     </div>
@@ -229,28 +229,46 @@
                 <div class="product"></div>
                 <div class="screen__bg">
                     <label for="for_man" class="select-gender select-gender--girl"></label>
-                    <label for="for_g_water" class="select-option select-option--water"></label>
-                    <label for="for_g_partner" class="select-option select-option--partner"></label>
+                    <div class="top">
+                        <div class="logo"></div>
+                        <div class="logo-sign">Поиск горячих людей с горячей водой</div>
+                    </div>
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading">О чем ты мечтаешь <br>в душе?</h2>
+                                <div class="button-set">
+                                    <label for="for_g_water" class="button">О горячей<br>воде</label>
+                                    <label for="for_g_partner" class="button">О горячем<br>парне</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="screen screen--for_g_water for_water for_girl">
                 <div class="product"></div>
                 <div class="screen__bg">
-                    <label for="for_girl" class="select-circle select-circle--bottom"></label>
-                    <!--<label  class="select-back"></label>-->
-                    <div class="share-group">
-                        <div class="share-group__border"></div>
-                        <div class="share-group__text"></div>
-                        <label for="for_g_water_share" class="select-share"></label>
+                    <label for="for_girl" class="select-circle select-circle--top"></label>
+                    <div class="top">
+                        <div class="logo"></div>
+                        <!-- <div class="logo-sign is-secondary">
+                            <script>
+                                count = randomInteger(2, 9);
+                                word = declOfNum(count, ['девушка', 'девушки', 'девушек']);
+                                document.write(count + ' ' + word);
+                            </script>
+                            рядом с тобой<br> мечтают о&nbsp;серьезном теплом душе
+                        </div> -->
                     </div>
-                    <div class="screen__random">
-                        <script>
-                            count = randomInteger(2, 9);
-                            word = declOfNum(count, ['парень', 'парня', 'парней']);
-                            document.write(count + ' ' + word);
-                        </script>
-                        в этом вагоне мечтают<br> о&nbsp;серьезном теплом душе
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered">Есть горячая вода? <br>Я скажу тебе «ДА»!</h2>
+                                <label for="for_g_water_share" class="button">Поделиться</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -260,19 +278,19 @@
                 <div class="screen__bg">
                     <label for="for_girl" class="select-circle select-circle--top"></label>
                     <!--<label  class="select-back"></label>-->
-                    <div class="share-group">
-                        <div class="share-group__border"></div>
-                        <div class="share-group__text"></div>
-                        <label for="for_g_share" class="select-share"></label>
+                    <div class="top">
+                        <div class="logo"></div>
                     </div>
-                    <div class="screen__random">
-                        У
-                        <script>
-                            count = randomInteger(2, 9);
-                            ending = declOfNum(count, ['', '', '']);
-                            document.write(count + ending);
-                        </script>
-                        парней в этом вагоне есть горячая вода, но нет планов на вечер
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered">
+                                    Поменяю горячий душ <br>
+                                    на горячее свидание
+                                </h2>
+                                <label for="for_g_share" class="button">Поделиться</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -280,12 +298,28 @@
             <div class="screen screen--for_g_share for_share for_girl">
                 <div class="product"></div>
                 <div class="screen__bg">
-                    <div class="share-post">
-                        <div class="share-post__text">Поделись постом:</div>
-                        <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?gs"></a>
-                        <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?gs"></a>
-                        <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?gs"></a>
-                        <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?gs"></a>
+                    <div class="top">
+                        <div class="logo"></div>
+                    </div>
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered is-hashtagged">
+                                    <div class="unrotate">
+                                        Поменяю горячий душ <br>
+                                        на горячее свидание
+                                        <span class="hashtag">#СТЕПЛОМВДУШЕ</span>
+                                    </div>
+                                </h2>
+                                <div class="share-post">
+                                    <div class="share-post__text">Поделись постом:</div>
+                                    <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?gs"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?gs"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?gs"></a>
+                                    <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?gs"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -293,12 +327,27 @@
             <div class="screen screen--for_g_water_share for_share for_girl">
                 <div class="product"></div>
                 <div class="screen__bg">
-                    <div class="share-post">
-                        <div class="share-post__text">Поделись постом:</div>
-                        <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?gb"></a>
-                        <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?gb"></a>
-                        <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?gb"></a>
-                        <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?gb"></a>
+                    <div class="top">
+                        <div class="logo"></div>
+                    </div>
+                    <div class="content">
+                        <div class="b_valign">
+                            <div class="b_valign-cont">
+                                <h2 class="heading is-bordered is-hashtagged">
+                                    <div class="unrotate">
+                                        Есть горячая вода? <br>Я скажу тебе «ДА»!
+                                        <span class="hashtag">#СТЕПЛОМВДУШЕ</span>
+                                    </div>
+                                </h2>
+                                <div class="share-post">
+                                    <div class="share-post__text">Поделись постом:</div>
+                                    <a class="share-post__link" target="_blank" href="http://vkontakte.ru/share.php?url=http://nighthero.ru/showerdating?gb"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://nighthero.ru/showerdating?gb"></a>
+                                    <a class="share-post__link" target="_blank" href="http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=http://nighthero.ru/showerdating?gb"></a>
+                                    <a class="share-post__link" target="_blank" href="http://twitter.com/share?u=http://nighthero.ru/showerdating?gb"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

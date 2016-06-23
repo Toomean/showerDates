@@ -132,8 +132,8 @@ label {
     left: 12px;
     top: 40px;
     z-index: 100;
-    width: 10vw;
-    height: 5vw;
+    width: 4em;
+    height: 2em;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -256,14 +256,14 @@ label {
     text-align: center;
 }
 .share-post__text {
-    margin-bottom: 0.5vw;
-    font-size: 1.2vw;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
     color: #ffffff;
 }
 .share-post__link {
     display: inline-block;
-    width: 8vw;
-    height: 8vw;
+    width: 4em;
+    height: 4em;
     background-image: url(sharings.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,8 +381,8 @@ label {
 }
 
 .b_valign .share-post__link {
-    width: 4vw;
-    height: 4vw;
+    width: 4em;
+    height: 4em;
 }
 
 .b_valign-cont {
@@ -514,7 +514,7 @@ label {
     }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 769px) {
     .button-set .button {
         margin: 0 2%;
     }
@@ -524,6 +524,35 @@ label {
         padding: 1.5em 1.5em .5em;
 
         font-size: 2.5em
+    }
+}
+
+@media screen and (max-width: 769px) and (orientation: portrait) {
+    .b_valign-cont {
+        padding-top: 4em;
+        vertical-align: top;
+    }
+
+    .heading {
+        line-height: 1.2em;
+    }
+
+    .heading br {
+        display: none;
+    }
+
+    .share-post__text {
+        font-size: 2em;
+    }
+
+    .b_valign .share-post__link {
+        width: 8em;
+        height: 8em;
+    }
+
+    .select-circle {
+        width: 4em;
+        height: 4em;
     }
 }
 
@@ -544,6 +573,12 @@ label {
         font-size: 10px;
     }
 }
+
+/*@media screen and (max-width: 520px) and (orientation: landscape) {
+    .button {
+        font-size: 2.5em;
+    }
+}*/
 
 @media screen and (max-width: 520px) and (max-height: 400px) {
     .top {
@@ -586,12 +621,18 @@ label {
 }
 .screen--for_m_water_share .screen__bg {
     background-image: url(man_water_share.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_m_partner .screen__bg {
     background-image: url(man_partner.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_m_share .screen__bg {
     background-image: url(man_partner_share.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_girl .screen__bg {
     background-image: url(girl_start.jpg);
