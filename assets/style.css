@@ -611,6 +611,7 @@ label {
 
 .screen--for_man .screen__bg {
     background-image: url(man_start.jpg);
+    
     background-size: cover;
     background-position: center;
 }
@@ -636,18 +637,28 @@ label {
 }
 .screen--for_girl .screen__bg {
     background-image: url(girl_start.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_g_water .screen__bg {
     background-image: url(girl_water.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_g_water_share .screen__bg {
     background-image: url(girl_water_share.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_g_partner .screen__bg {
     background-image: url(girl_partner.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .screen--for_g_share .screen__bg {
     background-image: url(girl_partner_share.jpg);
+    background-size: cover;
+    background-position: center;
 }
 /*********************************************
  *
